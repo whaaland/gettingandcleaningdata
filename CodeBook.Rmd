@@ -16,7 +16,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 To construct the tidyData dataset, accelerometry measurements from the test and training datasets were joined, along with participant IDs and activity descriptors. 
 
-Variables in the dataset tidyData represent the mean calculated for each individual, for each activity type. The activity types are 
-```{r}
-table(tidyData$Activity)
-```
+Variables in the dataset tidyData represent the mean calculated for each individual, for each activity type. The activity types are Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying
