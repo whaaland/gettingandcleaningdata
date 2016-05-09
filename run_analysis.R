@@ -2,10 +2,9 @@
 ## Getting and Cleaning Data class project
 ##########################################
 
-setwd("C://Users//whaala//Documents//Coursera Data Science//Getting and Cleaning Data")
 
 
-#Load labels, columns names
+#Load labels, column names
 actlab<-read.table(".//getdata-projectfiles-UCI HAR Dataset//UCI HAR Dataset//activity_labels.txt", header=FALSE)
 
 cn<-read.table(".//getdata-projectfiles-UCI HAR Dataset//UCI HAR Dataset//features.txt", header=FALSE)
